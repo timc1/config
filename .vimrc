@@ -42,6 +42,9 @@ Plugin 'tpope/vim-commentary'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 
+" nord colorscheme
+Plugin 'arcticicestudio/nord-vim'
+
 " all plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -55,9 +58,8 @@ set rnu
 set signcolumn=yes
 
 syntax enable
-let g:solarized_termtrans=1
 set background=dark
-colorscheme solarized 
+colorscheme nord 
 set guifont=Input\ Mono:h11
 
 " tabs
