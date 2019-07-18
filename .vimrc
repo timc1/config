@@ -179,6 +179,10 @@ ca err let @+ = v:statusmsg
 " fzf
 " map ctrl+p to :Files
 nnoremap <c-p> :Files<CR>
+nnoremap <c-b> :Buffer<CR>
+" map bn and bp to switch buffers 
+ca bn bnext
+ca bp bprev
 
 " Abstract goodies
 runtime! env/*.vim
