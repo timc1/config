@@ -14,7 +14,8 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "0794b1e0-dcff-4100-9824-3f2af6cb6517"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
