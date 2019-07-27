@@ -1,0 +1,78 @@
+{
+  "_from": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
+  "_id": "nord-atom-syntax@0.9.1",
+  "_inBundle": false,
+  "_integrity": "sha512-9gjExNqRB+zkGuRTe+yMmUtL3P1MbphSc6Kbw7veAlLQrN3ZIY3X3qE8D/WLXP5M4h+UT/jwcBrxwo/OtgXAFA==",
+  "_location": "/nord-atom-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
+  "_shasum": "146ffdaad7ba6eca4f30209931319d444c88c102",
+  "_spec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
+  "_where": "/private/var/folders/wl/g_r5tm813hz80_q0gg0zn3p00000gn/T/apm-install-dir-119623-89466-14wvkit.xvqgj",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/nord-atom-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "accessibility": {
+      "type": "object",
+      "properties": {
+        "commentContrast": {
+          "title": "Custom Comment Contrast",
+          "description": "Increases the contrast for comments by percentage.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20,
+          "default": 0
+        }
+      }
+    }
+  },
+  "deprecated": false,
+  "description": "An arctic, north-bluish clean and elegant Atom syntax theme.",
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "gulp": "3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-help": "1.6.1",
+    "gulp-stylelint": "^3.9.0",
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/arcticicestudio/nord-atom-syntax",
+  "keywords": [
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "elegant",
+    "minimal",
+    "syntax"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "nord-atom-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticicestudio/nord-atom-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.9.1"
+}
