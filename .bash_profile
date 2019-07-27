@@ -30,6 +30,8 @@ eval "$(ssh-agent -s)"
 ssh-add
 
 alias mvim='open -a MacVim'
+alias vim='mvim -v'
+alias vi='mvim -v'
 alias v="mvim -v"
 alias python="python3.7"
 alias ss="python -m http.server 8888"
