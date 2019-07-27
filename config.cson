@@ -1,0 +1,24 @@
+"*":
+  core:
+    audioBeep: false
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "nord-atom-syntax"
+    ]
+  editor:
+    fontSize: 11
+    preferredLineLength: 100
+    scrollPastEnd: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "0794b1e0-dcff-4100-9824-3f2af6cb6517"
+  "linter-ui-default": {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierEslintOptions:
+      prettierLast: true
+  welcome:
+    showOnStartup: false

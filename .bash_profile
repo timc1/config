@@ -22,7 +22,7 @@ echo '''
 '''
 
 # Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Start the SSH agent
 eval "$(ssh-agent -s)"
@@ -30,8 +30,6 @@ eval "$(ssh-agent -s)"
 ssh-add
 
 alias mvim='open -a MacVim'
-alias vim="mvim -v"
-alias vi="mvim -v"
 alias v="mvim -v"
 alias python="python3.7"
 alias ss="python -m http.server 8888"
@@ -60,6 +58,8 @@ alias yd="yarn deploy"
 alias yt="yarn test"
 alias ytw="yarn test --watch"
 alias yrd="yarn run dev"
+
+alias gg="git grep -n --column"
 
 # Custom functions
 function killport (){
@@ -91,4 +91,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
