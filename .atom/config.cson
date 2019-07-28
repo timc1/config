@@ -1,6 +1,9 @@
 "*":
   core:
     audioBeep: false
+    packagesWithKeymapsDisabled: [
+      "autocomplete-plus"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
