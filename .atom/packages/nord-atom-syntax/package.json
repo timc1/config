@@ -1,28 +1,29 @@
 {
-  "_from": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
-  "_id": "nord-atom-syntax@0.9.1",
+  "_from": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball",
+  "_id": "nord-atom-syntax@0.10.0",
   "_inBundle": false,
-  "_integrity": "sha512-9gjExNqRB+zkGuRTe+yMmUtL3P1MbphSc6Kbw7veAlLQrN3ZIY3X3qE8D/WLXP5M4h+UT/jwcBrxwo/OtgXAFA==",
+  "_integrity": "sha512-aA5EDY/zXlVw+170a3dkTvGPhyyES1ywDiy5KEUFs+PuYaKaHRN48tNvRX07VZdexmHoduxb+nsQGR9bQgQJ3g==",
   "_location": "/nord-atom-syntax",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball"
+    "raw": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
-  "_shasum": "146ffdaad7ba6eca4f30209931319d444c88c102",
-  "_spec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.9.1/tarball",
-  "_where": "/private/var/folders/wl/g_r5tm813hz80_q0gg0zn3p00000gn/T/apm-install-dir-119623-89466-14wvkit.xvqgj",
+  "_resolved": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball",
+  "_shasum": "62510503f2579afc43ca6f82042f32754e0c98ec",
+  "_spec": "https://www.atom.io/api/packages/nord-atom-syntax/versions/0.10.0/tarball",
+  "_where": "/private/var/folders/wl/g_r5tm813hz80_q0gg0zn3p00000gn/T/apm-install-dir-11971-82785-iy58ah.zg70n",
   "author": {
     "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com"
+    "email": "development@arcticicestudio.com",
+    "url": "https://www.arcticicestudio.com"
   },
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-atom-syntax/issues"
@@ -56,7 +57,7 @@
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
   },
-  "homepage": "https://github.com/arcticicestudio/nord-atom-syntax",
+  "homepage": "https://www.nordtheme.com/ports/atom-syntax",
   "keywords": [
     "arctic",
     "north",
@@ -74,5 +75,5 @@
     "url": "git+https://github.com/arcticicestudio/nord-atom-syntax.git"
   },
   "theme": "syntax",
-  "version": "0.9.1"
+  "version": "0.10.0"
 }
