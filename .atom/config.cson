@@ -1,6 +1,9 @@
 "*":
   core:
     audioBeep: false
+    disabledPackages: [
+      "atom-typescript"
+    ]
     packagesWithKeymapsDisabled: [
       "autocomplete-plus"
     ]
@@ -9,6 +12,7 @@
       "one-dark-ui"
       "nord-atom-syntax"
     ]
+    titleBar: "custom"
   editor:
     fontSize: 11
     preferredLineLength: 100
@@ -17,11 +21,14 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "0794b1e0-dcff-4100-9824-3f2af6cb6517"
-  "linter-ui-default": {}
+  "flow-ide": {}
+  "linter-ui-default":
+    panelHeight: 384
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
     prettierEslintOptions:
       prettierLast: true
+  "tree-view": {}
   welcome:
     showOnStartup: false

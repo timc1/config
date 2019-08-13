@@ -1249,6 +1249,8 @@ function replaceTextInRangeViaDiff (editor, range, newText) {
   })
 }
 
+const sortByFallback = (rowA, rowB) => rowA.localeCompare(rowB, {sensitivity: 'base'})
+
 function changeArrayOrder (array, action, sortBy) {
   if (array.length < 2) {
     return array
@@ -1258,12 +1260,32 @@ function changeArrayOrder (array, action, sortBy) {
     case 'reverse':
       return array.slice().reverse()
     case 'sort':
-      return array.slice().sort(sortBy)
+      return array.slice().sort(sortBy || sortByFallback)
     case 'rotate-right':
       return array.slice(1).concat(array[0])
     case 'rotate-left':
       return array.slice(-1).concat(array.slice(0, -1))
+    case 'ramdomize':
+      return shuffleArray(array)
   }
+}
+
+// Borrowed from
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+function shuffleArray (array) {
+  let currentIndex = array.length
+  let temporaryValue, randomIndex
+
+  // While there remain elements to shuffle...
+  while (currentIndex !== 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex)
+    currentIndex -= 1
+
+    temporaryValue = array[currentIndex]
+    array[currentIndex] = array[randomIndex]
+    array[randomIndex] = temporaryValue
+  }
+  return array
 }
 
 function changeCharOrder (text, action) {
