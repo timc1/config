@@ -1,9 +1,6 @@
 "*":
   core:
     audioBeep: false
-    disabledPackages: [
-      "atom-typescript"
-    ]
     packagesWithKeymapsDisabled: [
       "autocomplete-plus"
     ]
@@ -22,7 +19,8 @@
   "exception-reporting":
     userId: "0794b1e0-dcff-4100-9824-3f2af6cb6517"
   "flow-ide": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 384
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
