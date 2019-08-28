@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball",
-  "_id": "linter-ui-default@1.7.1",
+  "_from": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball",
+  "_id": "linter-ui-default@1.8.0",
   "_inBundle": false,
-  "_integrity": "sha512-zuw6vNN9GvROWOHFYAv0NeraOBXyx11xmGR0uM1xIvvqCxEJb0haOyKuLmh+Ajn5Xofpb0d7SrBMm96oHW1X6Q==",
+  "_integrity": "sha512-PkOFe091etNRMTK5SYaw9vTvK7QWlsBtxQmnYltlWU0CT02akGeb7q7YAjjpkTM+LxwLJX1KsXc2W0LmncDTCw==",
   "_location": "/linter-ui-default",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball"
+    "raw": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball",
-  "_shasum": "f83559dc90262f6c6a1d451d063366c6df546d18",
-  "_spec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.7.1/tarball",
-  "_where": "/private/var/folders/wl/g_r5tm813hz80_q0gg0zn3p00000gn/T/apm-install-dir-119624-4124-zlx2vu.lvzs",
+  "_resolved": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball",
+  "_shasum": "2a03809663d08d75e6603e554ddb18d9a64bcb95",
+  "_spec": "https://www.atom.io/api/packages/linter-ui-default/versions/1.8.0/tarball",
+  "_where": "/private/var/folders/t7/th_lw4qd1q98_6f_xs7l35380000gn/T/apm-install-dir-119726-20935-1d0h1ak.3amy",
   "bugs": {
     "url": "https://github.com/steelbrain/linter-ui-default/issues"
   },
@@ -168,11 +168,11 @@
     }
   },
   "dependencies": {
-    "atom-package-deps": "^4.3.1",
+    "atom-package-deps": "^5.1.0",
     "disposable-event": "^1.0.3",
-    "marked": "^0.3.9",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "marked": "^0.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "sb-debounce": "^1.0.1",
     "sb-react-table": "^1.0.2"
   },
@@ -180,9 +180,8 @@
   "description": "Default UI for the Linter package",
   "devDependencies": {
     "eslint-config-steelbrain": "^5.0.0",
-    "flow-bin": "^0.66.0",
-    "jasmine-fix": "^1.0.1",
-    "rimraf": "^2.5.4"
+    "flow-bin": "^0.67.1",
+    "jasmine-fix": "^1.0.1"
   },
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
@@ -216,7 +215,8 @@
     "url": "git+https://github.com/steelbrain/linter-ui-default.git"
   },
   "scripts": {
-    "test": "(apm test) && (flow check) && (eslint . ) && (prettier --list-different lib/*.js)"
+    "lint": "(flow check) && (eslint . ) && (prettier --list-different lib/*.js)",
+    "test": "apm test"
   },
-  "version": "1.7.1"
+  "version": "1.8.0"
 }
