@@ -33,6 +33,8 @@
 
 'atom-text-editor':
   'ctrl-i': 'autocomplete-plus:activate'
+  'cmd-ctrl-j': 'editor:move-line-down'
+  'cmd-ctrl-k': 'editor:move-line-up'
 
 'atom-text-editor.autocomplete-active':
   'escape': 'autocomplete-plus:cancel'
