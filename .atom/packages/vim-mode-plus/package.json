@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball",
-  "_id": "vim-mode-plus@1.36.1",
+  "_from": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball",
+  "_id": "vim-mode-plus@1.36.2",
   "_inBundle": false,
-  "_integrity": "sha512-HxWuVi9pqM6mMcSJ1ndjmBa753nCodo9lSOh4w7peicL68gjne7328MKGEXvHIoW8uAtrD87+aNUVOvpSmEudA==",
+  "_integrity": "sha512-59U5Lg9qJcGcGd6mrROaYFh74mty6qAqc3HnnKWu6ZxwrzysMSA/zT2S5aBTpbIPUPPOwIxOXDB/+WYg75D+3A==",
   "_location": "/vim-mode-plus",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball"
+    "raw": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball",
-  "_shasum": "2d8e59107472432d2504633e47462a777a8590b8",
-  "_spec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.1/tarball",
-  "_where": "/private/var/folders/wl/g_r5tm813hz80_q0gg0zn3p00000gn/T/apm-install-dir-119710-71019-1enxv6g.8l76",
+  "_resolved": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball",
+  "_shasum": "84330582c783b7dc360a3ce373ce697f5c510403",
+  "_spec": "https://www.atom.io/api/packages/vim-mode-plus/versions/1.36.2/tarball",
+  "_where": "/private/var/folders/t7/th_lw4qd1q98_6f_xs7l35380000gn/T/apm-install-dir-119828-50308-1rbv3ra.lcimk",
   "bugs": {
     "url": "https://github.com/t9md/atom-vim-mode-plus/issues"
   },
@@ -92,5 +92,5 @@
       "spec/fixtures/*"
     ]
   },
-  "version": "1.36.1"
+  "version": "1.36.2"
 }
