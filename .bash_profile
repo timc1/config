@@ -1,5 +1,7 @@
 source ~/.secrets
 export PATH=/bin:/sbin:/usr/local/sbin:/usr/bin:/usr/local/bin:$PATH:/usr/local/mysql/bin
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # Sets colors for Terminal
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
@@ -50,6 +52,7 @@ alias gd="git diff"
 alias ga="git add ."
 alias gc="git commit -m"
 alias gb="git branches"
+alias gsu="git submodule update"
 #yarn aliases
 alias ya="yarn add"
 alias yad="yarn add --dev"
@@ -60,6 +63,13 @@ alias yd="yarn deploy"
 alias yt="yarn test"
 alias ytw="yarn test --watch"
 alias yrd="yarn run dev"
+
+#werk aliases
+alias yws="yarn web start"
+alias yds="yarn desktop start"
+alias ywf="yarn web flow"
+alias ydf="yarn desktop flow"
+alias ysf="yarn shared flow"
 
 alias gg="git grep -n --column"
 
