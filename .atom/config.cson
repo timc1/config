@@ -1,6 +1,9 @@
 "*":
   core:
     audioBeep: false
+    disabledPackages: [
+      "atom-typescript"
+    ]
     packagesWithKeymapsDisabled: [
       "autocomplete-plus"
     ]
