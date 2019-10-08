@@ -5,8 +5,6 @@ eval "$(rbenv init -)"
 
 # Sets colors for Terminal
 export PS1="%10F%m%f:%11F%1~%f \$ "
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
 
 echo '''
     ________________________
@@ -28,17 +26,13 @@ eval "$(ssh-agent -s)"
 # Add the SSH key
 ssh-add
 
-alias mvim='open -a MacVim'
-alias vim='mvim -v'
-alias vi='mvim -v'
-alias v="mvim -v"
 alias python="python3.7"
 alias ss="python -m http.server 8888"
 alias checkport='netstat -vanp tcp | grep'
 alias ls='ls -GFh'
 alias ll='ls -1a'
 alias ..='cd ../'
-alias sb='source ~/.bash_profile'
+alias sb='source ~/.zprofile'
 alias pg='echo "Pinging Google" && ping www.google.com'
 # git aliases
 alias gs="git status"
