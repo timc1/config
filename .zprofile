@@ -5,6 +5,8 @@ eval "$(rbenv init -)"
 
 # Sets colors for Terminal
 export PS1="%10F%m%f:%11F%1~%f \$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 
 echo '''
     ________________________
