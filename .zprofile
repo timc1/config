@@ -9,10 +9,10 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 echo '''
-    ________________________
-   / "Welcome back, Tim!     \
-   \  You the best"          /
-     -----------------------
+    _____________
+   / "MOOO MOOO! \
+   \    Moooo!   /
+     -----------
        \   ^___^
         \  (O O)\_________
            (___)\         )\/\
