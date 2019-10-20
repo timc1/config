@@ -60,7 +60,7 @@ set signcolumn=yes
 " enable nord colorscheme
 syntax enable
 set background=dark
-colorscheme nord 
+colorscheme nord
 set guifont=Input\ Mono:h11
 
 " tabs
@@ -87,7 +87,7 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 " remove YCM's linter because we're using ale
 let g:ycm_show_diagnostics_ui = 0
 
-" vim-ale 
+" vim-ale
 " change error and warning symbols
 let g:ale_sign_error = "◉"
 let g:ale_sign_warning = "◉"
@@ -103,7 +103,7 @@ set tw=100
 set formatoptions+=t
 
 " ignores case in searches
-set ignorecase 
+set ignorecase
 
 " highlight all matching searches
 set incsearch
@@ -120,7 +120,7 @@ set showcmd
 " don’t reset cursor to start of line when moving around
 set nostartofline
 
-" when toggling between (h)igh, (m)id, (l)ow, keep the cursor line 3 lines from the original target 
+" when toggling between (h)igh, (m)id, (l)ow, keep the cursor line 3 lines from the original target
 set scrolloff=3
 
 " disable cursorline in insert mode
@@ -159,9 +159,9 @@ vmap <C-j> ]egv
 " run prettier on save
 let g:prettier#quickfix_enabled = 0
 let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.mdx,*.vue,*.yaml,*.html PrettierAsync 
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.mdx,*.vue,*.yaml,*.html PrettierAsync
 
-" disable automatic comment insertion 
+" disable automatic comment insertion
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " enable yanking to the clipboard
@@ -171,8 +171,8 @@ set clipboard=unnamed
 " Reference: https://webpack.js.org/guides/development/#adjusting-your-text-editor
 set backupcopy=yes
 
-" open new tab in explorer mode and location of current 'head' 
-ca te Texplore 
+" open new tab in explorer mode and location of current 'head'
+ca te Texplore
 ca tE Texplore
 
 " copy error message to clipboard
@@ -182,7 +182,7 @@ ca err let @+ = v:statusmsg
 " map ctrl+p to :Files
 nnoremap <c-p> :Files<CR>
 nnoremap <c-b> :Buffer<CR>
-" map bn and bp to switch buffers 
+" map bn and bp to switch buffers
 ca bn bnext
 ca bp bprev
 

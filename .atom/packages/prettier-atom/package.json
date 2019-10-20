@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball",
-  "_id": "prettier-atom@0.57.3",
+  "_from": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball",
+  "_id": "prettier-atom@0.58.0",
   "_inBundle": false,
-  "_integrity": "sha512-ftL9S/Uh75DGFxTrS7RrZ4+WKDKKbe8uO+xfJllfx3jccfB8SaDieo6tDp1N/U8eJikWihV+xk1dCys4YgJXVQ==",
+  "_integrity": "sha512-ACYFhhKh4+HthIJpJANBya4Xi21wbFZV4JCIJahXwar0VTobPvbVaW/AvbJ+Rg4sbKDF2y6TvU/OrKNQUS4pPA==",
   "_location": "/prettier-atom",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball"
+    "raw": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball",
-  "_shasum": "e2c2dc2b4c7212bd08036eb07da2d130f1fa427d",
-  "_spec": "https://www.atom.io/api/packages/prettier-atom/versions/0.57.3/tarball",
-  "_where": "/private/var/folders/wl/g_r5tm813hz80_q0gg0zn3p00000gn/T/apm-install-dir-11994-13150-1fxxka8.8vgo",
+  "_resolved": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball",
+  "_shasum": "eb4780f3a9995666ae24bc0681fccb7f716b3c4c",
+  "_spec": "https://www.atom.io/api/packages/prettier-atom/versions/0.58.0/tarball",
+  "_where": "/private/var/folders/t7/th_lw4qd1q98_6f_xs7l35380000gn/T/apm-install-dir-119919-31098-910sot.9jvtv",
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
@@ -131,5 +131,5 @@
     "start": "nps",
     "test": "nps test"
   },
-  "version": "0.57.3"
+  "version": "0.58.0"
 }
