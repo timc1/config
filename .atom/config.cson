@@ -1,9 +1,9 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDirectoryColumn: true
   core:
     audioBeep: false
-    disabledPackages: [
-      "atom-ide-ui"
-    ]
     packagesWithKeymapsDisabled: [
       "autocomplete-plus"
     ]
@@ -24,7 +24,6 @@
   "flow-ide": {}
   "linter-ui-default":
     panelHeight: 198
-    showPanel: true
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
