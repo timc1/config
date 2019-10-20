@@ -1,7 +1,10 @@
 source ~/.secrets
 export PATH="~/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+
+if [ -x "$(command -v rbenv)" ]; then
+  eval "$(rbenv init -)"
+fi
 
 # Sets colors for Terminal
 export CLICOLOR=1
