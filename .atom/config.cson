@@ -6,6 +6,7 @@
     audioBeep: false
     disabledPackages: [
       "atom-typescript"
+      "atom-ide-ui"
     ]
     packagesWithKeymapsDisabled: [
       "autocomplete-plus"
@@ -27,6 +28,7 @@
   "flow-ide": {}
   "linter-ui-default":
     panelHeight: 198
+    showPanel: true
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
