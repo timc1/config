@@ -2,7 +2,8 @@ blob-store
 compile-cache
 dev
 storage
-.apm
 .node-gyp
 .npm
-.atom-socket-secret-*
+.apm
+packages/
+atom-shell/

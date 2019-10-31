@@ -5,8 +5,7 @@
   core:
     audioBeep: false
     disabledPackages: [
-      "atom-typescript"
-      "atom-ide-ui"
+      "ide-flowtype"
     ]
     packagesWithKeymapsDisabled: [
       "autocomplete-plus"
@@ -26,9 +25,19 @@
   "exception-reporting":
     userId: "0794b1e0-dcff-4100-9824-3f2af6cb6517"
   "flow-ide": {}
+  "linter-eslint":
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.flow"
+      "source.babel"
+      "source.js-semantic"
+      "source.ts"
+      "source.tsx"
+    ]
   "linter-ui-default":
     panelHeight: 198
-    showPanel: true
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
