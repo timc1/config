@@ -26,7 +26,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.19"
   },
   "deprecated": false,
   "description": "Relative line numbers for Atom",
